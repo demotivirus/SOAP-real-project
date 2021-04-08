@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS dictionary_airplane CASCADE;
+DROP TABLE IF EXISTS dictionary_company CASCADE;
+DROP TABLE IF EXISTS dictionary_city CASCADE;
+DROP TABLE IF EXISTS dictionary_country;
+DROP TABLE IF EXISTS dictionary_airplane_classes CASCADE;
+DROP TABLE IF EXISTS flight CASCADE;
+DROP TABLE IF EXISTS passenger CASCADE;
+DROP TABLE IF EXISTS reservation CASCADE;
+DROP TABLE IF EXISTS dictionary_place CASCADE;
+DROP TABLE IF EXISTS dictionary_airplane_places;
