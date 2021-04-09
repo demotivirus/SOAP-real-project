@@ -28,8 +28,8 @@ public class Flight {
     long id;
 
     String code;
-    LocalDateTime flightDate;
-    long flightDuration;
+    LocalDateTime dateFrom;
+    LocalDateTime dateTo;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "airplane_id", referencedColumnName = "id")

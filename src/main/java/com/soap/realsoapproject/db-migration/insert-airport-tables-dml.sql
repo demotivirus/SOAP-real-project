@@ -41,5 +41,5 @@ insert into public.dictionary_airplane_places (airplane_id, place_id) values (1,
 insert into public.dictionary_airplane_places (airplane_id, place_id) values (1, 8);
 insert into public.dictionary_airplane_places (airplane_id, place_id) values (1, 9);
 
-insert into public.flight (code, flight_date, flight_duration, airplane_id, city_from_id, city_to_id) values ('sdofj23', '2021-02-05 21:23:41.000000', 220, 1, 1, 2);
-insert into public.flight (code, flight_date, flight_duration, airplane_id, city_from_id, city_to_id) values ('s678g', '2021-02-05 21:24:41.000000', 330, 2, 1, 3);
+insert into public.flight (code, date_from, date_to, airplane_id, city_from_id, city_to_id) values ('sdofj23', '2021-02-05 21:23:41.000000', '2021-02-05 01:33:48.000000', 1, 1, 2);
+insert into public.flight (code, date_from, date_to, airplane_id, city_from_id, city_to_id) values ('s678g', '2021-02-05 21:24:41.000000', '2021-02-05 05:11:41.000000', 2, 1, 3);

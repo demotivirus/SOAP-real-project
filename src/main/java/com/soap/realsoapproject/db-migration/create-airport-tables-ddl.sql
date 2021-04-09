@@ -59,8 +59,8 @@ CREATE TABLE flight
     id              bigserial not null
         constraint flight_pk primary key,
     code            varchar   not null unique,
-    flight_date     timestamp,
-    flight_duration bigint    not null,
+    date_from     timestamp,
+    date_to     timestamp,
     airplane_id     bigint    not null,
     city_from_id    bigint    not null,
     city_to_id      bigint    not null

@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,6 +17,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Entity
 @Table(name = "dictionary_company")
+@ToString
 public class Company {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
