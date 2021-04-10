@@ -40,6 +40,6 @@ public class Reservation {
     @JoinColumn(name = "passanger_id", referencedColumnName = "id")
     Passenger passenger;
 
-    LocalDateTime reserveDatetime;
+    public LocalDateTime reserveDatetime;
     String code;
 }

@@ -3,9 +3,13 @@ package com.soap.realsoapproject.interfaces;
 import com.soap.realsoapproject.model.Flight;
 import com.soap.realsoapproject.model.dictionary.City;
 
+import javax.jws.WebMethod;
+import javax.jws.WebService;
 import java.time.LocalDateTime;
 import java.util.List;
 
+@WebService
 public interface Search {
-    List<Flight> findAirplane(LocalDateTime localDateTime, City cityFrom, City cityTo);
+    @WebMethod
+    List<Flight> findFlight(LocalDateTime localDateTime, City cityFrom, City cityTo);
 }

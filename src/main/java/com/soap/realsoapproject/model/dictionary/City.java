@@ -1,9 +1,12 @@
 package com.soap.realsoapproject.model.dictionary;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -16,7 +19,10 @@ import javax.persistence.Table;
 
 @Getter
 @Setter
+@Builder
+@ToString
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "dictionary_city")
 public class City {
